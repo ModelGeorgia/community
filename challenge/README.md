@@ -1,33 +1,40 @@
-<!-- MOVED TO Community/Challenge/README.md -->
+**How will your community move beyond carbon and into a net zero future?**
 
-<h3><span style="white-space:nowrap; font-size: 42px; line-height: 1em">Beyond Carbon</span></h3>
+<i>The US Environmental Protection Agency (EPA) presents a virtual coding challenge to create <a href="../../io/">Web Pages for Communities</a> to explore local environmental impacts and innovations. Presented with <a href="https://www.codeforamerica.org/" target="_blank">Code for America</a>, this official US Federal Challenge event is offering a total of $10,000 in cash awards. Additional project support provided by the Georgia Center of Innovation.
 
-<h1 style="font-weight:300">Sustainable Communities <span style="white-space:nowrap">Web Challenge</span></h1>
+<b>Start anytime from now up until the finale on <span style="white-space: nowrap;">October 2, 2021.</span></b></i>
 
-<i>A virtual coding challenge to customize our community apps for your community, offering a total of $10,000 in cash awards. This is an official US Federal Challenge event sponsored by the US Environmental Protection Agency, in partnership with the Georgia Center of Innovation for Energy Technology, and in coordination with Code for America.</i>
+**The challenge:** Create a community page that visualizes your community's path to a sustainable, net zero future. A community can be your neighborhood, town, city, county, region or state. Use data and widgets from the EPA and other sources to share your vision for a sustainable community.
 
-<h2>When</h2>
-Start anytime from now up until the final day, October 2, 2021.
+<h2><b>How to Participate</b></h2>
 
-<h3>Event Schedule</h3>
+**Get started today!**
 
-<b>Saturday, October 2, 2021</b>  
-10AM to 11AM EST - Introductions, Expand Teams, Setup Walk-Through  
-11AM to 4PM EST - Work Time (open mic from noon to 1pm)  
-4PM to 5:30PM EST - Team Presentations
-6:00PM EST - Awards
+1. <a href="registration/">Register online</a> now. Work as an individual, join an existing team, or form a new local team.
+2. Follow the <a href="#introlist">steps to create an entry</a>. 
+3. Present your entry at the October 2 finale event at 4:00 PM ET.
 
-<b>Optional Work Sessions</b><br>
-<a href="../../community/challenge/meetups/">Saturday, September 25, 2021 from 10AM to 12PM EST</a><br>
-<a href="../../community/challenge/meetups/">Tuesday, September 28, 2021 from 10AM to 12PM EST</a><br>
+<h2><b>Work Sessions</b></h2>
 
-<h2>How to Participate</h2>
-1. Register
-2. Follow the <a href="#introlist">steps to create an entry</a> or work with an existing team to prepare an entry.
-3. Present your entry at the October 2 event at 4PM ET.
+<b>Saturday, September 25, 2021</b> from 10AM to 12PM ET
+<b>Tuesday, September 28, 2021</b> from 10AM to 12PM ET  
+
+Work sessions are optional, but we encourage you to participate to get a jump on the competition.
+
+<a href="../../community/challenge/meetups/">View full schedule and meeting links.</a><br>
+
+<h2><b>Finale Event Schedule</b><br>Saturday, October 2, 2021</h2>
+10AM to 11AM ET - Introductions, Expand Teams, Walk-Through Entry Creation Steps  
+11AM to 4PM ET - Work Time (open mic from noon to 1pm)  
+4PM to 6PM ET - Team Presentations followed by Awards
+
+All activities will be held online.
+
+<a href="registration/" class="btn btn-success">Register to participate</a><br>
+
 
 <h2>Eligibility</h2>
-You must register to be eligible for awards. To register, your must be 18 years or older. Persons under 18 may participate on a team with a registered adult, but are not eligible to receive awards directly. You must present your work in real time at 4PM-6PM EST on October 2, 2021, or pre-record and share the recording before 4PM that day to be eligible for an award. Employees of the US Environmental Protection Agency, GA Department of Economic Development, and General Dynamics IT are not eligible for awards.
+You must register to be eligible for awards. To register, your must be 18 years or older. Persons under 18 may participate on a team with a registered adult, but are not eligible to receive awards directly. You must present your work in real time at 4PM-6PM ET on October 2, 2021, or pre-record and share the recording before 4PM that day to be eligible for an award. Employees of the US Environmental Protection Agency, GA Department of Economic Development, and General Dynamics IT are not eligible for awards.
 
 <!--
 Join us at an upcoming <a href="meetups/">meetup</a> to get involved! Final presentations will be Saturday, October 2, 2021. You can get started today!<br>
@@ -44,15 +51,6 @@ You can compete from anywhere in the world. We're building additions to the <a h
 
 <!-- We're combining national and state-level economic data, community resources and planning input from local communities to customize new environmental indicator models to meet&nbsp;community&nbsp;needs. -->  
 
-
-<h2>Register</h2>
-<!-- Also update in community index.html footer -->
-<div style="margin-top:20px">
-<a href="registration/" class="btn btn-success">Register to participate</a><br>
- <!-- <a href="../projects/" class="btn btn-warning">View Project Areas</a> -->
-<a href="meetups" class="btn btn-danger">Meetups and Slack Channels</a>
-</div>
-<br>
 
 <!--
 <b>Our January 2021 Winners</b>
