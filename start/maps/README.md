@@ -1,12 +1,9 @@
 # Map Samples
 
-Challenge entries should make updates to the map.js file which displays our [leaflet map](../../../localsite/map/).
-
-<!-- ## [Widget Mockup for EPA (layout)](../../resources/layout/)-->
 ## [Leaflet Map Layers](../../../localsite/map/)
-Click "Display..." to view app layers.  
+Map script resides in localsite/js/map.js and localsite/js/map-filters.js.  
 
-## [Our MapEngine as a Widget](../../../localsite/info/embed.html)<!-- [Older](../../map/starter/embed.html)-->  
+## [Map as a Widget](../../../localsite/info/embed.html)<!-- [Older](../../map/starter/embed.html)-->  
 The localsite/map/index.html page is loaded as a template.  
 
 ## [Brigade Map](../../../apps/brigades/)
@@ -15,7 +12,7 @@ The localsite/map/index.html page is loaded as a template.
 CfA Taxonomy: http://bluecompass.org/cfa/taxonomy2.html
 democracy lab index: https://www.democracylab.org/api/projects/?page=1 -->
 
-## [US Income (choropleth map)](../../map/income)
+## [US Income by County (choropleth map)](../../map/income)
 ## [Industry Mix (zip codes)](../../zip/leaflet/#columns=JobsAgriculture:50;JobsManufacturing:50)
 ## [Sets of Counties (counties)](counties/counties.html)
 ## [Driving Tour (routing)](../routing)
