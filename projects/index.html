@@ -39,6 +39,7 @@
 <body>
 <script>
   //loadMarkdown("README.md", "readmeDiv", "_parent");
+  loadMarkdown("intro.md", "introDiv", "_parent");
   loadMarkdown("../../io/template/label.md", "widgetsDiv", "_parent");
   loadMarkdown("profile-editor/README.md", "profileDiv", "_parent");
   loadMarkdown("io/README.md", "ioDiv", "_parent");
@@ -149,9 +150,11 @@
 
     <h1 style="font-size:32px">Project Areas</h1>
 
+     <!--
     <a href="../challenge/">Participate</a> individually or with a team in the <a href="../challenge/">Sustainable Communities Web Challenge</a><br><br>
-
+   
     NEW: <a href="../challenge/how/">Learn how to prepare a winning entry!</a><br><br>
+    -->
 
     <div style="clear:both; overflow: auto;">
       <div id="readmeDiv"></div>
@@ -162,27 +165,7 @@
         https://github.com/hackforla/engineering
     -->
 
-    <a href="../../apps/">Starter Pages</a> - Copy and add parameters<br>
-    <a href="../../community/projects/#widgets">UX/UI</a> - Mini & Super Widgets<br>
-    <a href="../../community/projects/#profile-editor">JQuery/React</a> - Environmental Profile Editor<br>
-    <a href="../../community/projects/#io">React/JS</a> - Inflow-Outflow and Sankey Charts<br>
-    <a href="../../community/projects/#github-actions">Python/R</a> - GitHub Actions Data Pipeline<br>
-    <a href="../../community/projects/#python">Python</a> - Machine Learning<br>
-    <a href="../../community/projects/#ux">UX/UI</a> - Community Hotspots Environmental Report (CHER)<br>
-    <a href="../../community/projects/#cinematic">Cinematic</a> - Environmental Impact Menu<br>
-    <a href="../../community/projects/#maps">Map Projects</a> - Data Visualizations<br>
-    <a href="../../community/projects/#google">Google and More</a> - Google Data Commons, Sheet Editor, .NET Core, Census Reporter, Walkability
-    <br>
-    <a href="../../apps/smm/">3.0 Mockup</a> - Lifecycle Tools<br><br>
-
-    Challenge participants are creating pages in the shared <a href="../../apps/">community pages</a> apps repo.<br>
-    All entries should include <a href="../../localsite/">parameter settings</a> to filter <a href="../../io/charts/">USEEIO widget IO charts</a> by location, impact and/or goods and services.<br><br>
-
-    <!--
-    <h4>Immediate Project Needs</h4>
-    1. Create a node script in the "apps" repo that pulls three <a href="../../localsite/start/">ModelEarth repos</a> (localsite, io and apps) into one local "webroot".<br><br>
-    -->
-
+    <div id="introDiv"></div><br>
     
     <section id="widgets">
     <div class="pagecard">
@@ -199,7 +182,7 @@
         </div>
     </div>
     </section>
-    
+
     <section id="profile-editor">
     <div class="pagecard">
         <div class="cardstyle" style="padding-bottom: 0px">

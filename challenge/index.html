@@ -45,9 +45,11 @@ https://model.earth/community/challenge/
 -->
 <body>
 <script>
-  loadMarkdown("ev.md", "evDiv", "_parent");
-  loadMarkdown("README.md", "readmeDiv", "_parent");
-  loadMarkdown("rules.md", "rulesDiv", "_parent");
+  //loadMarkdown("event.md", "eventDiv", "_parent");
+  loadMarkdown("../projects/intro.md", "projectListDiv", "_parent");
+  loadMarkdown("intro.md", "introDiv", "_parent");
+  //loadMarkdown("README.md", "readmeDiv", "_parent");
+  //loadMarkdown("rules.md", "rulesDiv", "_parent");
 
   //loadMarkdown("https://raw.githubusercontent.com/wiki/USEPA/useeio-widgets/Home.md", "useDiv", "_parent");
   ////loadMarkdown("https://raw.githubusercontent.com/wiki/USEPA/useeio-widgets/Use.md", "useDiv", "_parent");
@@ -169,6 +171,24 @@ https://model.earth/community/challenge/
     -->
 
     <div class="pagecard">
+        <div class="cardstyle">
+            <div class="leftLogo">
+                <img src="../img/logo/github.png" style="width:100%; max-width:200px">
+                <!--
+                <br><br><br>
+                <img src="../img/logo/python.png" style="width:100%; max-width:200px"><br><br><br>
+                <img src="../img/logo/react.jpg" style="width:100%; max-width:200px"><br>
+                -->
+            </div>
+            <div style="overflow:auto">
+                <h1>Product Lifecycle Projects</h1>
+                <div id="eventDiv"></div>
+                <div id="projectListDiv"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagecard">
 
         <div class="cardstyle">
             <!--
@@ -178,13 +198,14 @@ https://model.earth/community/challenge/
             -->
             <div style="overflow:auto">
 
+                <!--
                 <div style="font-size:38px; font-weight:200">
                     Sustainable Communities Web&nbsp;Challenge
                 </div>
-
-                
                 <br>
-
+                -->
+                
+                <div id="introDiv"></div>
                 <div id="readmeDiv"></div>
             </div>
         </div>
@@ -212,14 +233,17 @@ https://model.earth/community/challenge/
                 <div id="introlist" style="float:left; text-align:left;">
                     <br>
 
-                    <h2 style="margin-bottom:10px; font-size: 28px;">Steps for creating your entry</h2>
+                    <h2 style="margin-bottom:10px; font-size: 28px;">Steps for creating a Product Lifecycle Website</h2>
 
                     <h3>1. Identify your community of interest and register</h3>
-                    Your community can be a neighborhood, city, county, region of a state, or multiple states. Indicate your community when you <a href="registration/">register online</a>.
+                    Your community can be a neighborhood, city, county, region of a state, or multiple states. 
+                    <!--
+                    Indicate your community when you <a href="registration/">register online</a>.
+                    -->
                     <br>
                     
                     <h3>2. Discover important local issues based on the industries in your community</h3>
-                    Use our <a href="../../localsite/info/">industry comparison tool</a> to identify local issues.<br>
+                    Use our <a href="../../localsite/info/">lifecycle comparison tool</a> to identify local issues.<br>
 
                     <h3>3. Join or form a new team</h3>
 
@@ -240,7 +264,10 @@ https://model.earth/community/challenge/
 
                     <!-- Also update in community index.html footer -->
                     <div style="margin-top:20px">
+                    <a href="../../community/projects" class="btn btn-warning">Project Areas</a>
+                    <!--
                     <a href="registration/" class="btn btn-success">Register to participate</a> &nbsp;
+                    -->
                      <!-- <a href="../projects/" class="btn btn-warning">View Project Areas</a> -->
                     <a href="meetups" class="btn btn-danger">Meetups and Slack Channels</a>
                     </div>
@@ -256,19 +283,6 @@ https://model.earth/community/challenge/
     <div class="pagecard">
         <div class="cardstyle">
             <div class="leftLogo">
-                <img src="../img/logo/python.png" style="width:100%; max-width:200px"><br><br>
-                <img src="../img/logo/react.jpg" style="width:100%; max-width:200px"><br>
-            </div>
-            <div style="overflow:auto">
-                <div id="evDiv"></div>
-            </div>
-        </div>
-    </div>
-    -->
-    
-    <div class="pagecard">
-        <div class="cardstyle">
-            <div class="leftLogo">
                 <img src="../img/logo/github.png" style="width:100%; max-width:200px">
             </div>
             <div style="overflow:auto">
@@ -276,6 +290,7 @@ https://model.earth/community/challenge/
             </div>
         </div>
     </div>
+    -->
 
     <!--
     <div class="pagecard">
@@ -309,14 +324,15 @@ https://model.earth/community/challenge/
     </div>
     <br>
     -->
-    
+
+    <!--
     <div style="margin-top:30px">
         <a href="../../community/challenge/registration/" class="btn btn-success">Register Online</a>
         <a href="../../community/projects" class="btn btn-warning">Project Areas</a>
         <a href="../../community/challenge/meetups/" class="btn btn-danger">Meetups</a>
     </div>
     <br><br>
-
+    -->
 </div>
 
 </body>
