@@ -32,11 +32,30 @@ We're integrating the project index tools that Code for America is creating from
 
 <h4>Immediate Needs</h4>
 
+<!-- Figma -->
+
+- Apply the Blitz survey fields (Question and Choice) to our Real World 2.0 [planning repo](https://neighborhood.org/planning/#display=planning.md) ([GitHub](https://github.com/localsite/planning)) from the [Blitz survey builder tutorial](https://blitzjs.com/docs/tutorial).
+
+- Compare our Tabulator and Material UI display of static JSON files for [output and local jobs](../../localsite/info/data/).
+
+- Format [impact labels](../../community/projects/#widgets) with TypeScript from static JSON using [Tailwind CSS](https://tailwindcss.com), Blitz, [NextJS](https://nextjs.org) and/or [Prisma](https://www.prisma.io). Experiment with Tailwind CSS in our [planning repo](https://neighborhood.org/planning/#display=planning.md) ([GitHub](https://github.com/localsite/planning))
+
+
+- Start an Open AI Codex example that interacts with the static JSON.
+
+
+DONE: Update the <a href="../../apps/beyondcarbon/#state=NC">Beyond Carbon json display</a> to use the new <a href="https://github.com/modelearth/beyond-carbon-scraper">Beyond Carbon Scraper and Fuser</a> for [state CO<sub>2</sub> colors](../../apps/beyondcarbon/#mapview=country).
+
+Add clickable legends to Leaflet Maps - apply <a href="../../../community/map/ewg/">EWG legend sample</a> to our [neighborhood map](../../localsite/map/). Display the same layers that reside under upper right icon.
+
 Optimize the <a href="../../io/template/feed/">Building Transparency feed display</a> to <a href="https://model.earth/localsite/info/?show=openepd&mapview=state#state=GA">load the map in under 0.5 seconds</a>.
 
-Pull list of local project/repair needs from <a href="http://dev.seeclickfix.com/">See-Click-Fix open311 API</a>.
+Inquire with See-Click-Fix regarding adding domains so we can avoid [CORS error](../../community/resources/diffbot/#feed=open311) when pulling from the <a href="http://dev.seeclickfix.com/">See-Click-Fix open311 API</a>. Have them add model.earth, neighborhood.org and lifecycle.tools.
 
-DONE: Update the <a href="../../apps/beyondcarbon/#state=NC">Beyond Carbon json display</a> to use the new <a href="https://github.com/modelearth/beyond-carbon-scraper">Beyond Carbon Scraper and Fuser</a> for [state CO<sub>2</sub> colors](../../apps/beyondcarbon/#mapview=state).
+Integrate and update <a href="https://www.cloudcarbonfootprint.org">CloudCarbonFootprint.org widgets</a>. Investigate if these can be applied to a site hosted on GitHub with Cloudflare.
+
+[Join us](../../io/coders/) in creating a mobile survey tool for local governments with Open Seattle and Code for Atlanta.
+
 
 <h4>Democracy Lab</h4>
 
@@ -50,7 +69,7 @@ and <a href="https://www.ewg.org/">EWG</a>
 
 <h4>Emissions Dashboard</h4>
 
-Georgia Tech, UGA, Emory and the Ray Anderson Foundation are developing an [Emissions Dashboard](https://cepl.gatech.edu/dashboardseminars) focused on local sources and sinks for greenhouse gas emissions. Drawdown Georgia uses the [Quarterly Workforce Indicators (QWI)](https://www.census.gov/data/developers/data-sets/qwi.html) along with the US Energy Information Administration (EIA) open API and other federal datasets - some of which are also included in the USEEIO/Flowsa data pipeline. 
+Georgia Tech, UGA, Emory and the Ray Anderson Foundation are developing an [Emissions Dashboard](https://cepl.gatech.edu/dashboardseminars) focused on local sources and sinks for greenhouse gas emissions. The new tools use the [Quarterly Workforce Indicators (QWI)](https://www.census.gov/data/developers/data-sets/qwi.html) along with the US Energy Information Administration (EIA) open API and other federal datasets - some of which are also included in the USEEIO/Flowsa [data pipeline](../../localsite/info/data) used in our [site widgets](../../io/charts).
 
 <h4>Environmentally-Extended Input Output Data</h4>
 
