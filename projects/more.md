@@ -1,5 +1,11 @@
 
-## Dive into Google Data Commons API
+## Google Sheet Editor
+
+1. Develop a [Google Sheet Editor](https://model.earth/editor) for updating Google Sheet rows without opening the sheet directly. Use a REST process that allows editors to return and update rows containing their email address after using a social login process which validates their email. Avoid Zapier and processes that have extra costs.
+
+1. Work with a [JAMstack Editor](https://headlesscms.org/) to edit CSV files directly on GitHub using social logins.
+
+## Google Data Commons API
 
 [Install Data Commons Lite](../../localsite/info/data/datacommons/) on your local computer.  
 
@@ -17,14 +23,6 @@ Analysis applied to <a href="projects/mobility/">industries impacted by the tran
 <!--
 Find existing widgets and repos that use the [Charging Station API](https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC). Perhaps the [Open Charge Map API](https://openchargemap.org/site/develop/api) and/or [TomTom](https://developer.tomtom.com/search-api/search-api-documentation/ev-charging-stations-availability).
 --> 
-
-## Crowdsource Editor - Google REST App
-
-1. Create a [Google Sheet Editor](https://model.earth/editor) for crowdsourcing updates. Code for America Brigades often use Google Sheets to maintain directories, like these maps: [Georgia](https://www.georgia.org/covid19suppliersmap) and [North Carolina](https://nccovidsupport.org/). Use a REST process allowing editors to return and update their own row contributions using a social login process with an online form, without having access to edit rows of other contributors. Avoid Zapier or other time-intensive setup approaches.
-
-1. See our 
-
-1. Work with a [JAMstack Editor](https://headlesscms.org/) to edit CSV files directly on GitHub using social logins.
 
 
 ## .NET Core 5.0 Projects
