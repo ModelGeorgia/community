@@ -1,6 +1,6 @@
 ## Image/Video Generation
 
-[Stability AI API](https://dreamstudio.com/api/) - [StableStudio UX](https://dreamstudio.com/studio/) - [Image Generator](https://dreamstudio.ai/generate)
+[AI Community Visualizations](../../../data-pipeline/research) - [Stability AI API](https://dreamstudio.com/api/) - [StableStudio UX](https://dreamstudio.com/studio/) - [Image Generator](https://dreamstudio.ai/generate)
 
 For hero images, input-output visualizations and training resources.  
 Themes examples: Last Airbender and Marvel Comics APIs
@@ -26,14 +26,6 @@ NAICS 111339 - Other Noncitrus Fruit Farming closeup, Ecuador landscape
 
 <img src="/io/coders/img/DreamStudio_NAICS_111339_Other_Noncitrus_Fruit_Farming_closeup__4bb46868-c345-423c-b291-34f636f9c9d9.png" style="width:100%">
 NAICS 111339 "Other Noncitrus Fruit Farming" closeup in Ecuador
-
-
-<!--
-3. Add to our [interface in Figma](https://www.figma.com/file/mVZUSQCMBsIMu9bp7Y8qsS/Neighborhood-Impact-Footprint?node-id=18%3A6) for showing everyone's real-time score for 24 impact areas. Install [Figma Unify](https://www.figma.com/community/plugin/1009866256233241860/Unify%3A-Figma-to-React%2C-React-Native-and-HTML%2FCSS) to convert Figma components into clean React.  
-4. Explore [NextJS](https://nextjs.org/) using our [Engine-Storybook](https://github.com/localsite/engine-storybook) repo.  
--->
-
-
 
 
 <img src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/standard_fantastic.jpg" style="float:right; margin:0 0 20px 20px">

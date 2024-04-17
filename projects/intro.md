@@ -10,6 +10,63 @@
 }
 </style>
 
+View our [Active Projects](../../projects/) and read our [Lifecycle Tools Overview](../../community/tools/).
+
+<!--
+<h3>Where we need help...</h3>
+
+Heatmap needs to show vibrant colors when viewing states.
+
+&bullet; [Pandoc blog install steps for SQLite chart](../../places/) - NPM skills needed
+&bullet; [Display actual dollar totals](../../localsite/info/data/totals/) - React skills needed
+&bullet; [BuildingTransparency.org API display](../../io/template/feed/) - Pull static files for [label templates](../../../io/template/) and integration with EPA [impact widgets](../../io/charts/).
+
+<h3>Current Focus</h3>
+
+&bullet; [Job Levels by County](../../community-data/) with Average Pay and changes in hiring ([Gaurav](/io/team/))
+&bullet; [All the Places Zips](../../places/) - Generation of state and zip code files (Carolyn)
+&bullet; [Census Reporter and Google Data Commons](../../community/resources/censusreporter/)
+&bullet; [Farm Fresh Maps](../../localsite/info/#show=farmfresh) - API integration with local job data
+
+<b>AI API Projects</b>
+&bullet; [Stability.AI SDK](https://github.com/Stability-AI/stability-sdk) - [Github Action Workflows](https://github.com/Stability-AI/stability-sdk/actions)
+&bullet; [ChatGPT Setup](https://www.toolify.ai/ai-news/create-your-own-gpt-ai-from-games-to-stories-751819) - For Jobs Levels by County 
+&bullet; [ChatGPT with Github Actions](https://github.com/marketplace/actions/chatgpt-action) - Saved as static files
+&bullet; Locations reimagined by Ai - Gemini and Google Places
+&bullet; [Local industry innovation renderings](../../io/template/feed/) - BuildingTransparency.org
+<br>
+-->
+
+## MoonShot Challenges
+
+Not your average data modeling tasks, but worth the effort.
+
+**[Install LLM from Google Data Commons](github.com/datacommonsorg/website)**
+Build LLM from Google Data Commons locally [notes](/localsite/info/data/datacommons/), Integrate within [Open WebUI](/projects/src/)
+
+**[Integrate ObservableHQ's Interface for selecting charts](https://github.com/observablehq)**  
+Deploy to GitHub pages to create an easy-to-use alternative to Tableau.
+[Mike Bostock provided an assist](https://github.com/observablehq/framework/discussions/1030) - deploy.yml files
+
+**[Enhance API Key Storage in Earthscape](/earthscape/app/) and [Open WebUI](/projects/src/)**
+[API Key Local Storage mockup](/localsite/tools/storage/api/) - Javascript repeater with localStorage
+
+**[Push EPA Data to Google Data Commons](/localsite/info/data/datacommons/)**
+Push EPA data assempled in our [OpenFootprint](/OpenFootprint) impacts folder into Google Data Commons. Add USEEIO data to [Data Commons Sustainability Section](https://www.datacommons.org/explore/sustainability)
+
+**[Integrate with Census Reporting Sites](/community/resources/censusreporter/)**
+Integrate with [CensusReporter.com](https://CensusReporter.com) and [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/)
+
+**[Create a See-Click-Fix-Pay Rewards Program](https://seeclickfix.com)**
+Integrate data, maps and machine learning with [social safety net programs](https://www.codeforamerica.org/features/bringing-social-safety-net-benefits-online/) using [Job impact data](/localsite/info/#indicators=VADD,JOBS) and [Open Footprints](/OpenFootprint/) for job creation and training<!-- that integrates [X](https://x.com) with [Facebook](https://facebook.com/) with [Wechat mini programs](https://sekkeidigitalgroup.com/wechat-mini-program/) and [Weibo.com](https://weibo.com)-->.
+
+**[Storyboards for Training: Earthathon and Lunar Olympics Events](/io/coders/)**
+Join us [Thursday at noon and 10pm EDT on Sunday, Monday and Wednesday](/io/coders/) as we create [future-forward interfaces](/requests/) using [Earthscape](/earthscape/app/) and [Open&nbsp;WebUI](/projects/src/).
+
+<!-- [ML - NAICS Imputation Using Machine Learning](https://github.com/ModelEarth/machine-learning) -->
+
+## Overview of Project Areas
+
 <div class='pnum'>1.</div>
 <div class='ptxt'>
 <a href="../../localsite/">Localsite Navigation Framework</a><br>
@@ -42,8 +99,11 @@ React App for editing profile files directly on GitHub<br><br>
 
 <div class='pnum'>6.</div>
 <div class='ptxt'>
-<a href="../../community/projects/#google">Google Sheet Editor</a><br>
+<a href="../../community/projects/#google">Google Data Commons</a><br>
+International data lookups and integration with EPA impact data<br><br>
+<!--
 Tools for editing data in Google Sheets using a social login<br><br>
+-->
 </div>
 
 <div class='pnum'>7.</div>
