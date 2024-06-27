@@ -4,10 +4,17 @@
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <title>Impact Modeling Tools</title>
-<link rel="icon" type="image/x-icon" href="img/logo/favicon.png" />
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Build projects with Life Cycle Assessment data from the US Environmental Protection Agency (EPA), US Bureau of Economic Analysis (BEA), US Department of Commerce and the US Bureau of Labor Statistics (BLS)">
 <meta name="keywords" content="Input, Output, Environmental, Impact, Model, Commodities, Industries, Energy, Agriculture, Forestry, Manufacturing, Waste, Energy, Bioproducts, Inflow, Outflow, Job Levels, Value-Added, Air Quality, Greenhouse Gas Emissions, GHG, Land Use, Health, US Bureau of Economic Analysis, BEA, US Department of Commerce, US Environmental Protection Agency, EPA">
+
+<!-- load first for fastest map speed -->
+<!--
+TO DO: Revise use of JQuery at end of navigation.js within:
+$(document).on("change"
+<script type="text/javascript" src="../localsite/js/navigation.js" id="/localsite/js/navigation.js"></script>
+-->
 
 <link type="text/css" href="../localsite/css/base.css" rel="stylesheet" id="/localsite/css/base.css" />
 <script type="text/javascript" src="../localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
@@ -37,11 +44,24 @@ Economic data, community resources and planning input combined with the EPA's ne
 
 
 <script>
+  waitForElm('#nullschoolHeader').then((elm) => {
+    //$("#nullschoolHeader").show();
+  });
+  
+  // Temporary
   $(document).ready(function () {
       setTimeout(() => {
-        showGlobalMap("https://earth.nullschool.net/#current/wind/surface/level/orthographic=-73.52,34.52,532");
+        let latLonZoom = "-73.52,34.52,532";
+        if ($("#globeLatitude").val() && $("#globeLongitude").val()) {
+          latLonZoom = $("#globeLongitude").val() + "," + $("#globeLatitude").val() + ",532";
+        } else if (localStorage.latitude && localStorage.longitude) {
+          latLonZoom = localStorage.longitude + "," + localStorage.latitude + ",532";
+        }
+        showGlobalMap(`https://earth.nullschool.net/#current/wind/surface/level/orthographic=${latLonZoom}`);
       },1000);
   });
+  
+
   //loadMarkdown("README.md", "readmeDiv", "_parent");
   //// param.startTitle = "Model Earth"; // Trigger header
 </script>
@@ -51,7 +71,7 @@ Economic data, community resources and planning input combined with the EPA's ne
     display: none;
 }
 #fullcolumn {
-    background: #fafafa;
+    backgroundX: #fafafa;
 }
 .gobutton {
     margin: 0px;
@@ -155,9 +175,9 @@ tbody tr td:nth-child(2) {
 
 
 <body>
-<div style="clear:both; background-color:#fff; min-height:250px">
+<div style="clear:both; min-height:250px">
 
-  <div class="topcolumns content contentpadding" style="padding-top:30px; padding-bottom:0px; max-width: 1230px">
+  <div class="topcolumns content contentpadding" style="padding-top:0px; padding-bottom:0px; max-width: 1230px">
 
     <div class="pageColumn">
       <div class="pageColumnInside">
@@ -190,7 +210,7 @@ tbody tr td:nth-child(2) {
       <div class="pageColumnInside">
         <h2>Product Lifecycle Tools</h2>
 
-        We've teamed up with sustainablity experts, data scientists and educators around the world to integrate systems in community-focused environmental impact pages.<br><br>
+        We've teamed up with sustainablity experts, data scientists and educators around the world to integrate systems in community-focused product lifecycle tools.<br><br>
 
         <a href="../localsite/tools/" target="_parent" class="btn btn-white">Lifecycle Tools</a>
 
@@ -198,7 +218,6 @@ tbody tr td:nth-child(2) {
     </div>
 
     <div style="clear:both"></div>
-    <br><br>
 
   </div>
 
@@ -354,7 +373,7 @@ tbody tr td:nth-child(2) {
 <div class="lite">
 <div id="main-info-contentX" class="content contentpadding" style="clear:both; padding-top:50px;">
 
-  <div class="floatRight hideMobile" style="border:1px solid #ccc; margin-bottom:0px; background-color:#eee">
+  <div class="floatRight hideMobile" style="border:1px solid #ccc; margin-bottom:0px;">
     <div>
       <a href="../io/coders/" target="_parent" ><img id="right-image" src="img/overview/code-for-america-square.jpg" style=""></a>
     </div>
@@ -454,6 +473,9 @@ Learn more about USEEIO.
   overflow: auto;
   float: left;
 }
+.dark #hero-rect-new {
+  background-color: rgba(33, 33, 33, 0.9);
+}
 </style>
 
 <div class="hideMobile" style="position:relative;height:550px">
@@ -472,7 +494,7 @@ Learn more about USEEIO.
               <a href="../../community/projects/#python">Python</a> - Machine Learning<br>
               <a href="../../community/projects/#ux">UX/UI</a> - Nutrition Labels / Scenario Reporting<br>
               <a href="../../localsite/map/#show=farmfresh&geoview=countries">Countries Map Filter</a> - Data Visualizations<br>
-              <a href="../../community/projects/" style="display:block;margin-top:10px">View Project List</a>
+              <a href="/projects/" style="display:block;margin-top:10px">View Project List</a>
               
               <!--
               
