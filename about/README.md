@@ -1,8 +1,12 @@
 # About Model.Earth
 
-<span style="font-size: 18px;">We're combining [data&nbsp;visualization](../../io/charts/), [lifecycle&nbsp;analysis](../../community/tools/) and [machine&nbsp;learning](../../data-pipeline/) using open environmental [impact&nbsp;profiles](../../io/template/) to integrate collaborative tools for [industry&nbsp;comparisons](../../localsite/info/), [content&nbsp;storyboarding](../../data-pipeline/research/stream/) and [job&nbsp;creation](../../io/) to increase human benefits from [community biodiversity projects](../../data-pipeline/research/) aimed at [eliminating government debt](../start/charts/).</span>
+<span style="font-size: 18px;">We're combining [data&nbsp;visualization](../../io/charts/), [lifecycle&nbsp;analysis](../../community/tools/) and [machine&nbsp;learning](../../data-pipeline/) using open [US EPA environmental impact&nbsp;data](../../io/about/) to create collaborative tools for [industry&nbsp;comparisons](../../localsite/info/) and [content&nbsp;storyboarding](../../data-pipeline/research/stream/) while gaining [programming experience](/projects/). 
 
-## What makes our UX Unique and Exciting
+<!--
+to increase benefits from [biodiversity projects](../../data-pipeline/research/) aimed at [eliminating government debt](../start/charts/).</span>
+-->
+
+## What makes our UX unique and exciting
 
 The model.earth interface makes [selecting locations](#geoview=country) and [topics](#appview=topics) quick-and-easy for viewing local industries and census attributes. Our maps, tables and charts load faster than most websites thanks to our use of static files and Tabulator&nbsp;grids.
 
@@ -30,8 +34,10 @@ Where (location), What (topic), When (year), How (number of people and types of 
 
 View our [Industry Comparisons](/localsite/info/) and [Lifecycle Tools Overview](/community/tools/).
 
+<span class="local" style="display:none">
 For comparison, here's Data USA's [Payroll by Industry Sector](https://datausa.io/profile/geo/new-york#payroll).  
 The Data USA chart only supports state level. It's also difficult to see which industry the bars represent.
+</span>
 
 <!--
 In our setup, the colored countries will instead be the location's top 10 industries. The lines will move when indicators are selected for the number of employees, establishments, payroll.
@@ -58,6 +64,8 @@ Columns could be: Total, Male, Female, Under 18, 18 to 65, Over 65
 Instead of showing the census grid on the initial load, we'll provide a small snapshot about the location with interesting census attributes. We'll link the snapshot to CensusReporter.com for their great chart details (NY zip 10001).
 -->
 
-We're focused on providing a tight layout using census highlights, combined with All the Places location summaries, environmental [footprint labels](/io/template/) for products, individuals and communities, along with [timelines](/data-pipeline/timelines/) for job level projections and industry input-output details using the US EPA's [extended industry data](../../io/charts/).
+We're focused on providing a tight layout using census highlights, combined with All the Places location summaries, along with environmental [footprint labels](/io/template/) for products, individuals and communities, and [timelines](/data-pipeline/timelines/) for job level projections and industry input-output details using the US EPA's [extended industry data](../../io/charts/).
+
+One of the great UX features of our design is that content is never obstructed by popup dialog boxes. You can continue to interact while changing [filter settings](#sidetab=settings) and [map locations](#geoview=countries).
 
 [Community Data](/community-data) and [Code Meetups](/io/coders)

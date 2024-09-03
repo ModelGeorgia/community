@@ -123,13 +123,29 @@ Economic data, community resources and planning input combined with the EPA's ne
   right: 20px;
   bottom: 20px;
 }
-#logoRow {
+#logoRowXXX {
   border-top: 1px solid #ccc;
 }
 #logoRow a {
   margin-right: 64px;
   display:block;
   float: left;
+}
+@media (max-width: 800px) {
+  #logoRow {
+    margin-left: 30px;
+  }
+  #logoRow a {
+    float: none;
+    clear: both;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  #logoRow a > img {
+    width: 100% !important;
+    max-width: 250px;
+  }
 }
 .popout {
     border: 1px solid #ccc;
@@ -143,14 +159,6 @@ Economic data, community resources and planning input combined with the EPA's ne
 @media (max-width: 1200px) {
     .hideMobile1200 {
         display: none;
-    }
-}
-@media (max-width: 600px) {
-    .content {
-      padding: 0px;
-    }
-    .contentpadding {
-      padding: 0px;
     }
 }
 
@@ -173,11 +181,10 @@ tbody tr td:nth-child(2) {
 
 </head>
 
-
 <body>
 <div style="clear:both; min-height:250px">
 
-  <div class="topcolumns content contentpadding" style="padding-top:0px; padding-bottom:0px; max-width: 1230px">
+  <div class="topcolumns content contentpadding" style="padding-top:0px; padding-bottom:0px; max-width:1230px">
 
     <div class="pageColumn">
       <div class="pageColumnInside">
@@ -226,30 +233,45 @@ tbody tr td:nth-child(2) {
 
 <div id="readmeDiv"></div>
 
-<div class="hideMobile" id="logoRow">
-  <div class="content contentpadding" style="padding-top:40px; padding-bottom:0px; max-width: 1210px">
+<div class="hideMobileX">
+  <div class="content contentpadding" style="max-width:1230px; padding-top:10px; padding-bottom:20px;">
 
-    <div style="float:left; margin-bottom:20px">
-      <a href="https://www.democracylab.org/projects/834" target="_blank"><img src="../community/img/logo/orgs/democracy-lab.png"></a>
-      <!-- Reduce this logo: -->
-      <a href="https://model.georgia.org" target="_blank" style="margin-top:-4px;margin-right:64px !important;"><img src="img/logo/georgia_usa_gray.png" style="width:140px;"></a>
-      <a href="https://datacommons.org" target="_blank" style="margin-top:11px;margin-right:51px !important;"><img src="../community/img/logo/orgs/GoogleDataCommons.png" style="width:190px;"></a>
-    </div>
-
-    <div style="float:left; margin-bottom:20px">
-      <a href="https://openseattle.org" target="_blank" style="margin-top:-10px"><img src="../community/img/logo/orgs/open-seattle.png" style="width:140px;"></a>
-      <a href="https://codeforamerica.org" target="_blank" style="margin-top:-5px;margin-right:0px !important;"><img src="img/logo/code-for-america-and-earth.png" style="width:160px"></a>
-    </div>
-    <!--
-    <a href="https://data.world" target="_blank" style="margin-top:-10px"><img src="../community/img/logo/orgs/dataworld.png" style="width:140px;"></a>
-    -->
-    <!-- https://data.world/neighborhood 
-    -->
-
-    
-    <div style="clear:both"></div>
+      <h2>Objectives</h2>
+      1.) Reduce and eliminate government expenses through transparancy and open collaboration.<br>
+      2.) Identify products and choices that minimize environmental impacts around <a href="/data-commons/">UN&nbsp;Goal&nbsp;Timelines</a>.<br>
+      3.) Foster opportunities for dynamic pricing that creates inclusion, accountability and reduces barriers.
   </div>
 </div>
+
+<!-- Reduce georgia_usa_gray.png logo below. -->
+
+
+<hr>
+<div class="content contentpadding" styleX="padding-top:40px; padding-bottom:0px; max-width:1230px" id="logoRow">
+
+<div style="float:left; margin-bottom:20px">
+  <a href="https://www.democracylab.org/projects/834" target="_blank"><img src="../community/img/logo/orgs/democracy-lab.png"></a>
+  
+  <a href="https://model.georgia.org" target="_blank" style="margin-top:-4px;margin-right:64px !important;"><img src="img/logo/georgia_usa_gray.png" style="width:140px;"></a>
+  <a href="https://datacommons.org" target="_blank" style="margin-top:11px;margin-right:51px !important;"><img src="../community/img/logo/orgs/GoogleDataCommons.png" style="width:190px;"></a>
+
+  <a href="https://exiobase.eu" target="_blank" style="margin-top:8px;margin-right:51px !important;"><img src="../community/img/logo/orgs/exiobase.png" style="width:190px;"></a>
+
+</div>
+
+<!--
+<div style="float:left; margin-bottom:20px">
+  <a href="https://openseattle.org" target="_blank" style="margin-top:-10px"><img src="../community/img/logo/orgs/open-seattle.png" style="width:140px;"></a>
+  <a href="https://codeforamerica.org" target="_blank" style="margin-top:-5px;margin-right:0px !important;"><img src="img/logo/code-for-america-and-earth.png" style="width:160px"></a>
+</div>
+-->
+
+</div>
+<div style="clear:both"></div>
+
+
+
+
 
 <!--
 <a href="../localsite/info/"><img src="img/overview/slides/perfect-storm-heatmap.jpg" class="hideMobile" style="float:left; width: 100%; margin-top:0px; margin-bottom:20px"></a><br>
