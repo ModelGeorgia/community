@@ -41,15 +41,25 @@ Heatmap needs to show vibrant colors when viewing states.
 
 Not your average data modeling projects, but worth the effort.
 
-**[Pulling International trade flow into Supabase and DuckDB](/OpenFootprint/trade/)**
+**[Pulling International trade flow into Supabase and DuckDB](/profile/trade/)**
 Exiobase data converted to SQL for maps, Sankey and Chord charts
 
-**[Push US EPA Data to Google Data Commons](/localsite/info/data/datacommons/)**
-Push data assempled for our [Open Data Panels](/OpenFootprint) into Google Data Commons. Add USEEIO data to Google's [Sustainability Section](https://www.datacommons.org/explore/sustainability)
+**[Push US EPA Data to Google Data Commons](/data-commons/docs/)**
+Push data from [US State Models (RStudio)](/io/about/) into Google Data Commons.  
+Add USEEIO data to Google's [Sustainability Section](https://www.datacommons.org/explore/sustainability)
 
-**[Requests using the See-Click-Fix API](https://normansj.github.io/local-view-request/src/location/mylocation.html) with [Open WebUI](/projects/src)**
-Integrating data, maps and machine learning with [social safety net programs](https://www.codeforamerica.org/features/bringing-social-safety-net-benefits-online/) using [Job impact data](/localsite/info/#indicators=VADD,JOBS) and [Open Footprints](/OpenFootprint/) for requests and training with funding managed through [OC's GraphQL API](https://graphql-docs-v2.opencollective.com/access) and promoted via [BlueSky RSS Feeds](https://openrss.org/blog/bluesky-has-launched-rss-feeds). [Location-based&nbsp;Requests](/feed/view/#feed=311) integrated with [group review of bounty payments](https://github.com/orgs/ModelEarthTeam/discussions/8).
+**[See-Click-Fix API](/feed/view/#feed=311) within [FeebPlayer](/feed)**
+Integrating maps and ML with [Job impact data](/localsite/info/#indicators=VADD,JOBS) and [Profile panels](/profile/). 
+
 <!--
+**[Pay.gov web service API](https://www.milcorp.com/blog/cloud-feed/selecting-the-pay-gov-interface-thats-best-for-you/)** - Add an open source payment process to fund local improvements while [paying down federal debt](https://www.pay.gov/public/form/start/23779454). Send contributions to the investment pool of your choice to fund See Click Fix improvements and other projects through participating municipalities, states and countries.
+-->
+
+**[Easy to Integrate Auth Frontend](https://model.earth/cloud/)** - Integrate embeddable Google Firebase, Stytch, Cognito and/or Auth0 identity platform frontends in the [cloud repo](https://github.com/modelearth/cloud/).
+
+<!--
+[group review of bounty payments](https://github.com/orgs/ModelEarthTeam/discussions/8)
+
 Location-based Requests
 https://normansj.github.io/local-view-request/src/location/mylocation.html
 
@@ -59,19 +69,18 @@ https://normansj.github.io/local-view-request/src/location/mylocation.html
 
 <!-- that integrates with https://www.greenjobsboard.us, [X](https://x.com) with [Facebook](https://facebook.com/) with [Wechat mini programs](https://sekkeidigitalgroup.com/wechat-mini-program/) and [Weibo.com](https://weibo.com)-->
 
-**[UN Goal Storyboards and Data Prep for Lunar Olympics Celebration](/io/coders/)**
-[Join us](/io/coders/) Wednesdays at 11 AM EDT, Fridays at 6 PM EDT and Sunday evenings at 11 PM EDT as we create [future-forward interfaces](/requests/) using [Earthscape](/earthscape/app/) and [Open&nbsp;WebUI](/projects/src/) for [UN Goal timelines and forecasting](/data-commons/).
+**[UN Goal Storyboards and Data Prep](/io/coders/)**
+[Requests Visualization](/requests/) with [UN Goal timelines](/data-commons/docs/data/).
 
-**[Install LLM API pull from Google Data Commons](github.com/datacommonsorg/website)**
-Build Google Data Commons locally to reuse visualization LLM.  
-Integrate within [Open WebUI](/projects/src/) and update our [GDC install notes](/localsite/info/data/datacommons/).
+**[Install LLM API pull from Google Data Commons](https://github.com/datacommonsorg/website)**
+Build Google Data Commons locally to reuse visualization LLM. Update our [GDC install notes](/localsite/info/data/datacommons/).
 
 **[Integrate ObservableHQ's Interface for selecting charts](https://github.com/observablehq)**  
 Deploy to GitHub pages to create an easy-to-use alternative to Tableau.
 [Mike Bostock provided an assist](https://github.com/observablehq/framework/discussions/1030) - deploy.yml files
 
-**[Enhance API Key Storage in Earthscape](/earthscape/app/) and [Open WebUI](/projects/src/)**
-[API Key Local Storage mockup](/localsite/tools/storage/api/) - Javascript repeater with localStorage
+**[API Key Storage in Browser](/localsite/tools/storage/api/)**
+Javascript repeater with localStorage
 
 **[Integrate with Census Reporting Sites](/community/resources/censusreporter/)**
 Integrate with [CensusReporter.com](https://CensusReporter.com) and [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/)
@@ -123,7 +132,7 @@ Tools for editing data in Google Sheets using a social login<br><br>
 
 <div class='pnum'>7.</div>
 <div class='ptxt'>
-<a href="../../community/projects/#widgets">Open Footprint - Impact Widgets</a><br>
+<a href="../../community/projects/#widgets">Impact Widgets</a><br>
 Environmental Impact Widget UX/UI<br><br>
 </div>
 
@@ -145,3 +154,5 @@ Neighborhood.org themes include Marvel Comics and the Last Airbender. We're exte
 
 We're integrating the project index tools that Code for America is creating from Italy’s meta-tag editor, and include both login.gov and BrightID login’s for unique user validation.
 -->
+
+No Marshots? Don't Panic Tech Bro, we've got an eye on [Starman](https://dreamstudio.com/video/space/).

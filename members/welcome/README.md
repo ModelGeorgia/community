@@ -1,27 +1,33 @@
-# Welcome to our Model.earth Team!
+[Active Projects](../../../projects)
+# OPT Volunteers Welcome!
 
-Thanks for your interest in joining our DreamStudio Model.earth data science team!
+Thanks for your interest in joining DreamStudio's Model.earth data science team!
 
-Here's our [Members List](../). Please click "New Member Signup" and add yourself to our Google Sheet.
+Here's our [Member List](../) and [New Member Signup](https://docs.google.com/forms/d/e/1FAIpQLScXSX0_myDcB4_Z32hpGC71PXVsMmgy_dyZPY0aPEWamyzV-w/viewform) link.
 
-**Here are some areas to consider including in your member signup**
-OpenWebUI python backend and Docker, Javascript with eCharts visualizations, D3 chart javascript, Leaflet map colors, International Exiobase trade data, Discord API pull, Python pipelines, ML Forecasting, API Feed Player React, LLMs with python, AI Image generation python, Video generation python, Supabase International trade python, DuckDB US State impacts javascript
+Our weekly Google Meet link is always the same: [model.earth/io/coders](https://model.earth/io/coders)
 
-**Here's our active project list**
-[model.earth/projects](https://model.earth/projects)
+Optional Practical Training (OPT) is an opportunity for international students to stay in their host country for up to 3 years. One of these 3 years may focus on volunteer projects while recent grads search for employment opportunities.
 
-As you look through the projects, you'll see TO DOs.
-Let me (Loren) know if you'd like to be added to a specific project.
+If you're interested in being an OPT participant, send back the welcome letter Word Doc you'll receive from the New Member Signup.
 
-**Here are steps for pulling down our repos**
-[model.earth/localsite/start/steps](https://model.earth/localsite/start/steps)
+<!--
+**Here are some interest areas to consider including in your member signup**
+OpenWebUI python backend and Docker, Javascript with eCharts visualizations  
+D3 chart javascript, Leaflet map colors, International Exiobase trade data,  
+Discord API pull, Python pipelines, ML Forecasting, API Feed Player React, LLMs with python, AI Image generation python, Video generation python, Supabase International trade python, DuckDB US State impacts Javascript
+-->
 
-If you're an OPT student, complete our [OPT Welcome Letter Word doc](/webhook/files/YourName-ModelEarth-WelcomeLetter.docx) and send back to Loren to sign.
+We ask that participants not list us on their resume or LinkedIn until they've been actively contributing updates for a few weeks. Your contributions to our team projects provide a basis for assessment if job interviewers contact us to confirm ongoing participation.
 
-We meet Wednesdays at 11 AM EDT and Sunday evenings at 11 PM EDT.
-Our Supabase SQL team also meets at 6 PM EDT on Fridays.
+**Select Projects:** Add your name after a TO DO you're interested in on our [Active Projects Page](../../../projects), or edit README pages and CoLabs. Send a PR to add yourself to a project and add notes in our README files as you contribute code.
 
-[Our Google Meet link](model.earth/io/coders) is always the same. The times are here too: [model.earth/io/coders](https://model.earth/io/coders)
+**Active OPT Volunteers:** To remain active as an OPT volunteer, please contribute at least one Pull Request (PR) per week.  The time commitment is significant as the OPT program requires 20+ hours per week.  As you update code, also edit README files throughout our repos. Add status updates and deployment steps for others, correct existing notes and add new documentation.
 
+We use email threads to track involvement.  Some contributors also like to enter [weekly logs in a speadsheet](https://docs.google.com/spreadsheets/d/1wvw_xsFWnYE9z8nDQqmu1m2LB5TJEfy5VLkaFuEaCfk/edit?usp=sharing).  
 
-Looking forward to working with you! - [Join our team](../)
+**Steps for pulling down our repos:** [Fork and clone related repos](../../../localsite/start/steps/) - Turn on Github Pages for both your fork of the repo and your fork of the [localsite repo](https://github.com/modelearth/localsite/). When submiting a PR, also send an email including a review link. Your review link will be: [youraccount].github.io/[therepo] 
+
+Send an email whenever you send a pull request. If you are uncertain about an edit, make your best guess and submit the PR anyway. Include any uncertainties in the email you send after submitting the PR.
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScXSX0_myDcB4_Z32hpGC71PXVsMmgy_dyZPY0aPEWamyzV-w/viewform" class="btn btn-success">New Member Signup</a>

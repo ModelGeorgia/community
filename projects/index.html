@@ -28,6 +28,13 @@
 <meta name="twitter:image" content="https://model.earth/community/img/overview/model-earth-impacts.jpg" />
 
 <style>
+.navlink-moonshots {
+  font: 600 16px/1.8 "Lato", sans-serif !important;
+  color: #222 !important;
+}
+.dark .navlink-moonshots {
+    color: #fff !important;
+}
 h2 {
     font-size: 32px;
     padding-top: 20px;
@@ -121,13 +128,13 @@ ol > li {
 <div id="bodyFile"></div>
 
 <div id="hero_holder" style="position:relative;">
-    <img src="../img/hero/earth-artemus-2022.png" style="width:100%;max-width:2200px">
+    <img src="../img/hero/earth-artemus-2022.png" style="width:100%;max-width:2200px"  title="View from NASA's unmanned Orion spacecraft before traveling behind the Moon during Artemis I mission in 2022.">
 
     <div id="mainbucket" style="display:none" class="displayOnload darkDivText">
 
         <div style="padding-top:5px;overflow:auto" class="hideOnProjectsPage">
-          <!-- Transforming the earth's biomes through collaborative modeling and gamification. -->
-          Exploring Earth's systems<br>through collaborative modeling.<br>
+          <!-- Transforming earth's biomes through collaborative modeling and gamification. -->
+          Visualizing Earth's systems<br>through collaborative data science.<br>
           <a href="/community/projects/" class="btn btn-warning" style="margin-top:10px;">Coding Projects</a>
         </div>
         <div style="display:none" class="projectsPage">
@@ -170,7 +177,7 @@ ol > li {
     <div id="devDiv"></div>
     <br>
 
-    <!-- OpenFootprint -->
+    <!-- profile -->
     <section id="widgets">
     <div class="pagecard">
         <div class="cardstyle rowX" style="padding:0px">
@@ -212,7 +219,7 @@ ol > li {
         </div>
     </div>
     </section>
-    <!-- /OpenFootprint -->
+    <!-- /profile -->
 
     <div id="cinematic"></div>
     <section id="ai">
@@ -303,8 +310,8 @@ $(document).ready(function () { // Might be needed for backing up. Not sure.
   loadMarkdown("python/README.md", "pythonDiv", "_parent");
   loadMarkdown("ux/README.md", "uxDiv", "_parent");
   loadMarkdown("cinematic/README.md", "cinematicDiv", "_parent");
-  loadMarkdown("io/README.md", "ioDiv", "_parent");
-  loadMarkdown("more.md", "moreDiv", "_parent");
+  loadMarkdown("visualization/README.md", "ioDiv", "_parent"); // Data Visualization
+  loadMarkdown("more.md", "moreDiv", "_parent"); // Google Data Commons API
   loadMarkdown("related.md", "relatedDiv", "_parent");
   // param.startTitle = "Model Earth"; // Trigger header
 });
